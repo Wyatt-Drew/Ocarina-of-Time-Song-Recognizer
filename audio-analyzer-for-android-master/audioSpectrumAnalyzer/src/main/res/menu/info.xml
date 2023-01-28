@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fullscreen"
+        android:enabled="true"
+        android:icon="@drawable/ic_fullscreen_24dp"
+        android:title="Fullscreen"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/screenshot"
+        android:enabled="true"
+        android:icon="@drawable/ic_screenshot"
+        android:title="Screenshot"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_manual"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:menuCategory="container"
+        android:title="@string/menu_manual"
+        android:titleCondensed="@string/menu_manual_condensed"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:menuCategory="container"
+        android:title="@string/menu_preferences"
+        android:titleCondensed="@string/menu_preferences_condensed"/>
+
+    <item
+        android:id="@+id/menu_test_recorder"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:menuCategory="container"
+        android:title="@string/menu_test"
+        android:titleCondensed="@string/menu_test_condensed"/>
+
+    <item
+        android:id="@+id/menu_view_range"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:menuCategory="container"
+        android:title="@string/menu_set_view"
+        android:titleCondensed="@string/menu_set_view_condensed"/>
+
+    <item
+        android:id="@+id/menu_calibration"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:menuCategory="container"
+        android:title="Load calibration"
+        android:titleCondensed="calib"/>
+
+    <item
+        android:id="@+id/menu_privacy"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:onClick="openPrivacyPolicy"
+        android:menuCategory="container"
+        android:title="@string/privacy_policy"
+        android:titleCondensed="calib"/>
+
+    <item
+        android:id="@+id/menu_github"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:onClick="openGithub"
+        android:menuCategory="container"
+        android:title="@string/about"
+        android:titleCondensed="calib"/>
+
+</menu>
