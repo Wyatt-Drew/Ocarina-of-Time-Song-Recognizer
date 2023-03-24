@@ -1,1 +1,0 @@
-Umstellung auf AndroidX Preferences
