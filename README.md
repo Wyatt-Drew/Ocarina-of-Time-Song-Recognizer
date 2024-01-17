@@ -17,11 +17,4 @@ A video explaining this project is available [here](https://www.youtube.com/watc
 * MQTT implementation for signaling
 
 ![image](https://github.com/Wyatt-Drew/Ocarina-of-Time-Song-Recognizer/assets/98035850/0046e07b-3bcb-48a5-a404-7f4a2d33966c)
-
-
-Key features include:
-- **Audio Feedback:** A speaker plays the Legend of Zelda secret discovered noise as a success indicator.
-- **Song-Based Commands:**
-  - *Song of Storms:* Activates a water pump for plant irrigation.
-  - *Sun’s Song and Nocturne of Shadow:* Controls a grow light.
-  - *Bolero of Fire:* Operates an electric kettle for a set duration.
+(Figure 1: Overview of implementation)
